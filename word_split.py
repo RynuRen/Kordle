@@ -1,5 +1,5 @@
 import re
-# https://github.com/neotune/python-korean-handler
+# 참고: https://github.com/neotune/python-korean-handler
 
 # 유니코드 한글 시작 : 44032, 끝 : 55199
 BASE_CODE, CHOSUNG, JUNGSUNG = 44032, 588, 28
