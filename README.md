@@ -23,7 +23,7 @@ Windows10, vscode, tkinter
 # 구현
 규칙은 간단합니다.
 
-<img src="img_source/rule.PNG">
+<img src="img_source/rule.png">
 
 꼬들에서 설명하는 규칙입니다.
 
@@ -35,7 +35,7 @@ neotune님의 python korean handler 코드를 참고했습니다. 추가로 ㄲ�
 
 프로그래밍 기초를 배울때 짜봤던 야구게임 방식으로 구현했습니다. 우선 정답을 불러와 단어를 쪼개서 세팅합니다. 사용자에게 입력받은 단어도 쪼개서 6개의 자모에 해당하면 정답과 비교합니다. 자리와 자모가 맞다면 ◎, 자모만 맞다면 △, 다 틀렸다면 Ｘ를 출력하고 6회의 도전 카운트를 체크합니다.
 
-<img src="img_source/cmd.PNG">
+<img src="img_source/cmd.png">
 
 ## 단어 합치기
 원본 게임과 같이 자판 입력으로 구현하기 위해 tkinter 라이브러리를 사용하기로 했습니다. 원본 게임에서는 입력받는 단어는 국어사전에 등재된 단어만 체크할 수 있습니다. 이 과정에서 입력받은 자모를 하나로 합쳐 국어사전에 등재된 단어인지 체크하는 부분이 들어가야 했습니다.
@@ -52,27 +52,27 @@ neotune님의 python korean handler 코드를 참고했습니다. 추가로 ㄲ�
 
 tkinter로 자판 gui까지 구현했습니다.
 
-<img src="img_source/gui1.PNG">
+<img src="img_source/gui1.png">
 
 원본 게임과 같이 정답을 색깔로 자판에 표시합니다.
 
-<img src="img_source/gui2.PNG">
+<img src="img_source/gui2.png">
 
 자모를 6개 이상 입력하려고 하면 경고를 합니다.
 
-<img src="img_source/warn1.PNG">
+<img src="img_source/warn1.png">
 
 사전에 없는 단어를 입력하면 경고를 합니다.
 
-<img src="img_source/warn2.PNG">
+<img src="img_source/warn2.png">
 
 6번의 기회안에 성공하지 못하면 결과창에서 재시도 할 수 있습니다.
 
-<img src="img_source/fail.PNG">
+<img src="img_source/fail.png">
 
 게임에 성공하면 결과창에 시도횟수와 걸린시간을 출력해줍니다.
 
-<img src="img_source/success.PNG">
+<img src="img_source/success.png">
 
 # 개선점
 * gui입력에서 키보드의 입력을 추가
