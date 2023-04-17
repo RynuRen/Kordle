@@ -17,8 +17,8 @@ SeSAC with SaltLux 인공지능 과정의 중간 휴가 기간을 앞두고 뒷�
  <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 </p>
 
-### 개발 환경
-Windows10, vscode, tkinter
+### 개발 환경 및 라이브러리
+Windows10, python3.10, vscode, tkinter
 
 # 구현
 규칙은 간단합니다.
